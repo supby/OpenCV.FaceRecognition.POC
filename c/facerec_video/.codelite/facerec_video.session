@@ -2,7 +2,15 @@
 <Session Name="/home/andrej/prj/OpenCV.FaceRecognition.POC/c/facerec_video/facerec_video.workspace">
   <int Value="0" Name="m_selectedTab"/>
   <wxString Value="/home/andrej/prj/OpenCV.FaceRecognition.POC/c/facerec_video/facerec_video.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/home/andrej/prj/OpenCV.FaceRecognition.POC/c/facerec_video/main.cpp" Name="FileName"/>
+      <int Value="70" Name="FirstVisibleLine"/>
+      <int Value="80" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>
