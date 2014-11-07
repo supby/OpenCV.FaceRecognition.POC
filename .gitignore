@@ -26,3 +26,7 @@
 *.exe
 *.out
 *.app
+
+# Output directories
+c/facerec_opencv/Debug/
+c/facerec_opencv/Release/
