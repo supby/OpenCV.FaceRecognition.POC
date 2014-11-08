@@ -2,13 +2,13 @@
 <CodeLite_Workspace Name="facerec_opencv" Database="">
   <Project Name="facerec_opencv" Path="facerec_opencv.project" Active="Yes"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug" Selected="no">
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Project Name="facerec_opencv" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="no">
       <Project Name="facerec_opencv" ConfigName="Release"/>
     </WorkspaceConfiguration>
-    <WorkspaceConfiguration Name="Debug_linux" Selected="yes">
+    <WorkspaceConfiguration Name="Debug_linux" Selected="no">
       <Project Name="facerec_opencv" ConfigName="Debug_Linux"/>
     </WorkspaceConfiguration>
   </BuildMatrix>

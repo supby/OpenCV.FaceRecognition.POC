@@ -2,13 +2,13 @@
 <CodeLite_Workspace Name="facerec_video" Database="">
   <Project Name="facerec_video" Path="facerec_video.project" Active="Yes"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug" Selected="no">
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Project Name="facerec_video" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="no">
       <Project Name="facerec_video" ConfigName="Release"/>
     </WorkspaceConfiguration>
-    <WorkspaceConfiguration Name="Debug_linux" Selected="yes">
+    <WorkspaceConfiguration Name="Debug_linux" Selected="no">
       <Project Name="facerec_video" ConfigName="Debug_linux"/>
     </WorkspaceConfiguration>
   </BuildMatrix>

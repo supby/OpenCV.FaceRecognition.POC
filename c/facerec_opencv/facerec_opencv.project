@@ -41,15 +41,13 @@
       </Linker>
       <ResourceCompiler Options=""/>
     </GlobalSettings>
-    <Configuration Name="Debug" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+    <Configuration Name="Debug" CompilerType="MinGW ( MinGW )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
       <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
         <IncludePath Value="."/>
         <IncludePath Value="D:/opencv/build/include"/>
-        <IncludePath Value="/usr/local/include"/>
       </Compiler>
       <Linker Options="" Required="yes">
         <LibraryPath Value="D:/opencv/build/lib"/>
-        <LibraryPath Value="/usr/local/lib"/>
         <Library Value="libopencv_calib3d_pch_dephelp.a"/>
         <Library Value="libopencv_calib3d249.dll.a"/>
         <Library Value="libopencv_contrib_pch_dephelp.a"/>
@@ -119,24 +117,6 @@
         <Library Value="libopencv_video249.dll.a"/>
         <Library Value="libopencv_videostab_pch_dephelp.a"/>
         <Library Value="libopencv_videostab249.dll.a"/>
-        <Library Value="libopencv_calib3d.so"/>
-        <Library Value="libopencv_contrib.so"/>
-        <Library Value="libopencv_core.so"/>
-        <Library Value="libopencv_features2d.so"/>
-        <Library Value="libopencv_flann.so"/>
-        <Library Value="libopencv_gpu.so"/>
-        <Library Value="libopencv_highgui.so"/>
-        <Library Value="libopencv_imgproc.so"/>
-        <Library Value="libopencv_legacy.so"/>
-        <Library Value="libopencv_ml.so"/>
-        <Library Value="libopencv_nonfree.so"/>
-        <Library Value="libopencv_objdetect.so"/>
-        <Library Value="libopencv_ocl.so"/>
-        <Library Value="libopencv_photo.so"/>
-        <Library Value="libopencv_stitching.so"/>
-        <Library Value="libopencv_superres.so"/>
-        <Library Value="libopencv_video.so"/>
-        <Library Value="libopencv_videostab.so"/>
       </Linker>
       <ResourceCompiler Options="" Required="no"/>
       <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
